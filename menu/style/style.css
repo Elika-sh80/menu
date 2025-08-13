@@ -1,0 +1,115 @@
+* {
+    direction: rtl;
+    box-sizing: border-box;
+    font-family: vazirmatn;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+header>h2 {
+    text-align:center ;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+#menu {
+    display: flex;
+    background-color: rgb(218, 117, 117, .7);
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#menu a {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+#menu a:hover {
+    color: rgb(87, 74, 74);
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.businessbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 0 2px rgb(114, 106, 106);
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    /* width: 85%; */
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h3 {
+    padding: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-top: 20px;
+    background-color: rgb(216, 132, 132);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+
+}
+
+button:hover {
+    background-color: rgb(240, 128, 128, .8);
+}
+
+footer {
+    padding: 40px;
+    border: 1px solid whitesmoke;
+    margin-top: 50px;
+}
+
+#gotop {
+    position: fixed;
+    /* float: left; */
+    /* margin-top: 25px; */
+    left: 10px;
+    bottom: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+    box-shadow: 0 0 2px rgb(114, 106, 106);
+    border-radius: 8px;
+    padding: 5px 10px;
+
+}
+
+#gotop a {
+    color: rgb(71, 65, 65);
+    text-decoration: none;
+}
+@media(max-width:600px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+}
